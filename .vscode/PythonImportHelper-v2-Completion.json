@@ -17,6 +17,15 @@
         "documentation": {}
     },
     {
+        "label": "dj_database_url",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dj_database_url",
+        "description": "dj_database_url",
+        "detail": "dj_database_url",
+        "documentation": {}
+    },
+    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
@@ -71,7 +80,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-is-lc2!fxtex4z!$1!on-4@bi_7_o)j#2c#bs8$#epspzti^e)'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-is-lc2!fxtex4z!$1!on-4@bi_7_o)j#2c#bs8$#epspzti^e)'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['127.0.0.1', 'djangodep.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -80,7 +89,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-is-lc2!fxtex4z!$1!on-4@bi_7_o)j#2c#bs8$#epspzti^e)'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-is-lc2!fxtex4z!$1!on-4@bi_7_o)j#2c#bs8$#epspzti^e)'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['127.0.0.1', 'djangodep.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -89,7 +98,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['127.0.0.1', 'djangodep.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -98,7 +107,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]",
+        "peekOfCode": "ALLOWED_HOSTS = ['127.0.0.1', 'djangodep.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # HEROKU",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -107,7 +116,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # HEROKU\n    'whitenoise.runserver_nostatic',\n]",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -116,7 +125,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'djangoproject.urls'",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    # heroku\n    'whitenoise.middleware.WhiteNoiseMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -143,7 +152,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'djangoproject.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "peekOfCode": "WSGI_APPLICATION = 'djangoproject.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': 'learningDjango',\n        'USER': 'postgres',\n        'PASSWORD': 'newPassword',\n        'HOST': 'localhost',",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -152,7 +161,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': 'learningDjango',\n        'USER': 'postgres',\n        'PASSWORD': 'newPassword',\n        'HOST': 'localhost',\n        'PORT': '5432',\n    }\n}",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -188,7 +197,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -197,7 +206,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -206,7 +215,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\ndb_from_env = dj_database_url.config(conn_max_age=500)",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -215,7 +224,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -224,7 +233,34 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)",
+        "detail": "djangoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "djangoproject.settings",
+        "description": "djangoproject.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)",
+        "detail": "djangoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_STORAGE",
+        "kind": 5,
+        "importPath": "djangoproject.settings",
+        "description": "djangoproject.settings",
+        "peekOfCode": "STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)",
+        "detail": "djangoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "db_from_env",
+        "kind": 5,
+        "importPath": "djangoproject.settings",
+        "description": "djangoproject.settings",
+        "peekOfCode": "db_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
