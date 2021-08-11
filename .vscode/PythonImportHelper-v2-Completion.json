@@ -17,15 +17,6 @@
         "documentation": {}
     },
     {
-        "label": "django_heroku",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django_heroku",
-        "description": "django_heroku",
-        "detail": "django_heroku",
-        "documentation": {}
-    },
-    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
@@ -188,7 +179,7 @@
         "kind": 5,
         "importPath": "DjangoWebsite.settings",
         "description": "DjangoWebsite.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Activate Django-Heroku.",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Activate Django-Heroku.",
         "detail": "DjangoWebsite.settings",
         "documentation": {}
     },
@@ -197,7 +188,7 @@
         "kind": 5,
         "importPath": "DjangoWebsite.settings",
         "description": "DjangoWebsite.settings",
-        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Activate Django-Heroku.\ndjango_heroku.settings(locals())",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Activate Django-Heroku.\n# django_heroku.settings(locals())",
         "detail": "DjangoWebsite.settings",
         "documentation": {}
     },
@@ -206,7 +197,7 @@
         "kind": 5,
         "importPath": "DjangoWebsite.settings",
         "description": "DjangoWebsite.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Activate Django-Heroku.\ndjango_heroku.settings(locals())",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Activate Django-Heroku.\n# django_heroku.settings(locals())",
         "detail": "DjangoWebsite.settings",
         "documentation": {}
     },
@@ -215,7 +206,7 @@
         "kind": 5,
         "importPath": "DjangoWebsite.settings",
         "description": "DjangoWebsite.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Activate Django-Heroku.\ndjango_heroku.settings(locals())",
+        "peekOfCode": "STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Activate Django-Heroku.\n# django_heroku.settings(locals())",
         "detail": "DjangoWebsite.settings",
         "documentation": {}
     },
@@ -224,7 +215,7 @@
         "kind": 5,
         "importPath": "DjangoWebsite.settings",
         "description": "DjangoWebsite.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Activate Django-Heroku.\ndjango_heroku.settings(locals())",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Activate Django-Heroku.\n# django_heroku.settings(locals())",
         "detail": "DjangoWebsite.settings",
         "documentation": {}
     },
