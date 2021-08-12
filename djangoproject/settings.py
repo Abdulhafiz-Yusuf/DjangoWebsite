@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 
-# import django_heroku
+import django_heroku
 import dj_database_url
 import os
 from pathlib import Path
@@ -158,4 +158,4 @@ DATABASES['default'].update(db_from_env)
 
 # Activate Django-Heroku.
 # STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-# django_heroku.settings(locals())
+django_heroku.settings(locals())

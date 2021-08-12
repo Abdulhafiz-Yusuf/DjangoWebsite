@@ -17,6 +17,15 @@
         "documentation": {}
     },
     {
+        "label": "django_heroku",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django_heroku",
+        "description": "django_heroku",
+        "detail": "django_heroku",
+        "documentation": {}
+    },
+    {
         "label": "dj_database_url",
         "kind": 6,
         "isExtraImport": true,
@@ -322,7 +331,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_URL = \"/static/\"\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_URL = \"/static/\"\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\ndjango_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -331,7 +340,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "STATIC_URL = \"/static/\"\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
+        "peekOfCode": "STATIC_URL = \"/static/\"\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\ndjango_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -340,7 +349,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "STATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
+        "peekOfCode": "STATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\ndjango_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -349,7 +358,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "db_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
+        "peekOfCode": "db_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\ndjango_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
