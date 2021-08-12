@@ -169,7 +169,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-is-lc2!fxtex4z!$1!on-4@bi_7_o)j#2c#bs8$#epspzti^e)'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-is-lc2!fxtex4z!$1!on-4@bi_7_o)j#2c#bs8$#epspzti^e)'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['127.0.0.1', 'djangodep.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -178,7 +178,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-is-lc2!fxtex4z!$1!on-4@bi_7_o)j#2c#bs8$#epspzti^e)'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-is-lc2!fxtex4z!$1!on-4@bi_7_o)j#2c#bs8$#epspzti^e)'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['127.0.0.1', 'djangodep.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -187,7 +187,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = ['127.0.0.1', 'djangodep.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -196,7 +196,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]",
+        "peekOfCode": "ALLOWED_HOSTS = ['127.0.0.1', 'djangodep.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -322,7 +322,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "MEDIA_URL = \"/mediafiles/\"\nMEDIA_ROOT = BASE_DIR / \"mediafiles\"\n# Static Files\nSTATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\ndjango_heroku.settings(locals(), staticfiles=False)  # in end of settings.py",
+        "peekOfCode": "MEDIA_URL = \"/mediafiles/\"\nMEDIA_ROOT = BASE_DIR / \"mediafiles\"\n# Static Files\nSTATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# django_heroku.settings(locals(), staticfiles=False)  # in end of settings.py",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -331,7 +331,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "MEDIA_ROOT = BASE_DIR / \"mediafiles\"\n# Static Files\nSTATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\ndjango_heroku.settings(locals(), staticfiles=False)  # in end of settings.py",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / \"mediafiles\"\n# Static Files\nSTATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# django_heroku.settings(locals(), staticfiles=False)  # in end of settings.py",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -340,7 +340,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "STATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\ndjango_heroku.settings(locals(), staticfiles=False)  # in end of settings.py",
+        "peekOfCode": "STATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# django_heroku.settings(locals(), staticfiles=False)  # in end of settings.py",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -349,7 +349,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "STATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\ndjango_heroku.settings(locals(), staticfiles=False)  # in end of settings.py",
+        "peekOfCode": "STATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# django_heroku.settings(locals(), staticfiles=False)  # in end of settings.py",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -358,7 +358,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "db_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\ndjango_heroku.settings(locals(), staticfiles=False)  # in end of settings.py",
+        "peekOfCode": "db_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# django_heroku.settings(locals(), staticfiles=False)  # in end of settings.py",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
