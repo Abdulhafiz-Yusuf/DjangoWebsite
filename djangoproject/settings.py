@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    # 'django.contrib.staticfiles',
     # # HEROKU
     'whitenoise.runserver_nostatic',
 ]
@@ -158,4 +158,4 @@ DATABASES['default'].update(db_from_env)
 
 # Activate Django-Heroku.
 # STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-# django_heroku.settings(locals())
+django_heroku.settings(locals())

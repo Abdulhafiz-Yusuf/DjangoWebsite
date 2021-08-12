@@ -187,7 +187,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = ['127.0.0.1', 'djangodep.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = ['127.0.0.1', 'djangodep.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    # 'django.contrib.staticfiles',",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -196,7 +196,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "ALLOWED_HOSTS = ['127.0.0.1', 'djangodep.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # # HEROKU",
+        "peekOfCode": "ALLOWED_HOSTS = ['127.0.0.1', 'djangodep.herokuapp.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    # 'django.contrib.staticfiles',\n    # # HEROKU",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -205,7 +205,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # # HEROKU\n    'whitenoise.runserver_nostatic',\n]",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    # 'django.contrib.staticfiles',\n    # # HEROKU\n    'whitenoise.runserver_nostatic',\n]",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -331,7 +331,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_URL = \"/static/\"\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_URL = \"/static/\"\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\ndjango_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -340,7 +340,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "STATIC_URL = \"/static/\"\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
+        "peekOfCode": "STATIC_URL = \"/static/\"\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\ndjango_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -349,7 +349,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "STATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
+        "peekOfCode": "STATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\ndjango_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -358,7 +358,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "db_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
+        "peekOfCode": "db_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\ndjango_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
