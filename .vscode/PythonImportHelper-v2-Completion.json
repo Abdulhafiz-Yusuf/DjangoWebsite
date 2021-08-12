@@ -322,7 +322,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "MEDIA_URL = \"/mediafiles/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_URL = \"/static/\"\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'",
+        "peekOfCode": "MEDIA_URL = \"/mediafiles/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_URL = \"/static/\"\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -331,7 +331,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_URL = \"/static/\"\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_URL = \"/static/\"\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -340,7 +340,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "STATIC_URL = \"/static/\"\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
+        "peekOfCode": "STATIC_URL = \"/static/\"\n# STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -349,7 +349,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "STATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
+        "peekOfCode": "STATIC_ROOT = BASE_DIR / 'staticfiles'\n# heroku DB\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -358,16 +358,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "db_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
-        "detail": "djangoproject.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATICFILES_STORAGE",
-        "kind": 5,
-        "importPath": "djangoproject.settings",
-        "description": "djangoproject.settings",
-        "peekOfCode": "STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
+        "peekOfCode": "db_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# Activate Django-Heroku.\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# django_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
