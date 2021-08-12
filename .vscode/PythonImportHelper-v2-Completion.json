@@ -17,6 +17,15 @@
         "documentation": {}
     },
     {
+        "label": "django_heroku",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django_heroku",
+        "description": "django_heroku",
+        "detail": "django_heroku",
+        "documentation": {}
+    },
+    {
         "label": "dj_database_url",
         "kind": 6,
         "isExtraImport": true,
@@ -196,7 +205,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # # HEROKU\n    # 'whitenoise.runserver_nostatic',\n]",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # # HEROKU\n    'whitenoise.runserver_nostatic',\n]",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -205,7 +214,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    # # heroku\n    # 'whitenoise.middleware.WhiteNoiseMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    # # heroku\n    'whitenoise.middleware.WhiteNoiseMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -259,7 +268,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\n# STATIC_URL = '/static/'\n# Default primary key field type",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -268,7 +277,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\n# STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -277,7 +286,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\n# STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = \"/mediafiles/\"",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -286,7 +295,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\n# STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = \"/mediafiles/\"",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = \"/mediafiles/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -295,7 +304,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\n# STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = \"/mediafiles/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = \"/mediafiles/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -304,7 +313,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "STATIC_URL = \"/static/\"\n# STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = \"/mediafiles/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# heroku\ndb_from_env = dj_database_url.config(conn_max_age=500)",
+        "peekOfCode": "STATIC_URL = \"/static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = \"/mediafiles/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# heroku\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -313,7 +322,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = \"/mediafiles/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# heroku\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = \"/mediafiles/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# heroku\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Activate Django-Heroku.\ndjango_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -322,7 +331,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "MEDIA_URL = \"/mediafiles/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# heroku\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'",
+        "peekOfCode": "MEDIA_URL = \"/mediafiles/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# heroku\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Activate Django-Heroku.\ndjango_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -331,7 +340,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# heroku\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, \"mediafiles\")\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# heroku\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Activate Django-Heroku.\ndjango_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -340,7 +349,7 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# heroku\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# heroku\ndb_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Activate Django-Heroku.\ndjango_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
@@ -349,7 +358,16 @@
         "kind": 5,
         "importPath": "djangoproject.settings",
         "description": "djangoproject.settings",
-        "peekOfCode": "db_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\n# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'",
+        "peekOfCode": "db_from_env = dj_database_url.config(conn_max_age=500)\nDATABASES['default'].update(db_from_env)\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Activate Django-Heroku.\ndjango_heroku.settings(locals())",
+        "detail": "djangoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_STORAGE",
+        "kind": 5,
+        "importPath": "djangoproject.settings",
+        "description": "djangoproject.settings",
+        "peekOfCode": "STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Activate Django-Heroku.\ndjango_heroku.settings(locals())",
         "detail": "djangoproject.settings",
         "documentation": {}
     },
